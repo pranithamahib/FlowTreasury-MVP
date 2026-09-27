@@ -1,20 +1,18 @@
-# FlowTreasury MVP
+FlowTreasury MVP
 
 An AI-assisted treasury decision-support prototype built for a Product Manager application at **Zamp**.
 
-🔗 **Live Demo:** https://flow-treasury-mvp--pranithamahib.replit.app  
-📄 **Case Study:** [Link to Notion doc]  
-🎥 **Demo Video:** [Link to Loom]
+🔗 Live Demo: https://flow-treasury-mvp--pranithamahib.replit.app  
+📄 Case Study: https://app.notion.com/p/FlowTreasury-Zamp-PM-Case-Study-3e8d93be68d381e9b80ac0eb41fa4acb?source=copy_link
+🎥 Demo Video:https://www.loom.com/share/e5172f04ab344a978ea0a4b3201099e8
 
----
-
-## Problem
+ Problem
 
 Finance teams often have cash spread across multiple bank accounts but lack a simple way to
 identify potential excess cash, understand upcoming liquidity needs, and decide how much
 should remain liquid versus be allocated to a short-term, low-risk instrument.
 
-## Target User
+ Target User
 
 **Priya**, Finance Manager at a 150-person SaaS company. She manages cash across four bank
 accounts, tracks expenses through spreadsheets, and wants visibility and confidence — not
@@ -22,10 +20,10 @@ another complicated finance system.
 
 ## What This Product Does
 
-FlowTreasury helps a finance user go from **visibility → forecast → potential excess cash →
-explainable recommendation → human approval → recorded action.**
+FlowTreasury helps a finance user go from :visibility → forecast → potential excess cash →
+explainable recommendation → human approval → recorded action.
 
-1. **Overview** — total cash across all connected bank accounts, available liquidity, and
+1. **Overview — total cash across all connected bank accounts, available liquidity, and
    upcoming obligations
 2. **Forecast** — a 30-day view of expected outflows (payroll, vendors, taxes)
 3. **Recommendation** — a suggested split between liquid cash and an illustrative short-term
