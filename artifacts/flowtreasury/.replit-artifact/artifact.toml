@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "FlowTreasury"
+description = "A treasury decision-support workspace for finance teams to understand cash position, forecast liquidity, evaluate illustrative short-term allocation recommendations, and record human decisions using simulated financial data."
+version = "1.0.0"
+id = "artifacts/flowtreasury"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20285
+
+[services.development]
+run = "pnpm --filter @workspace/flowtreasury run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/flowtreasury", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/flowtreasury/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20285"
+BASE_PATH = "/"

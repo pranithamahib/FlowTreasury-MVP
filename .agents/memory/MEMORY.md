@@ -1,0 +1,1 @@
+- [Conflicting demo metrics](conflicting-demo-metrics.md) — preserve an explicitly specified top-line KPI as shared state when granular demo rows do not reconcile to it.

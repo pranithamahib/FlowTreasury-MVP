@@ -1,6 +1,6 @@
-# [Project name]
+# FlowTreasury
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+FlowTreasury is a simulated treasury decision-support workspace that helps finance teams understand cash, forecast liquidity, evaluate illustrative allocation recommendations, and record human decisions.
 
 ## Run & Operate
 
@@ -22,15 +22,24 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `artifacts/flowtreasury/src/App.tsx` — frontend routes, centralized demo state, calculations, and decision workflow.
+- `artifacts/flowtreasury/src/index.css` — FlowTreasury visual system and responsive layout.
+- `artifacts/flowtreasury/.replit-artifact/artifact.toml` — artifact routing and workflow metadata.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
+- The first MVP is frontend-only with session-scoped simulated data; no bank, trading, or money-movement integrations are connected.
+- Potential excess cash is derived from total account cash, expected obligations, and the editable liquidity buffer.
+- Recommendation acceptance/rejection records an action locally and never executes a financial transaction.
+- The review flow keeps allocation sums constrained to calculated potential excess and exposes the calculation before recording a decision.
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Overview of total cash, available liquidity, obligations, runway, and attention items.
+- Cash position search/filter with account detail drawer.
+- 30/60/90-day forecast views with upcoming obligations.
+- Explainable recommendation, editable buffer and allocation, no-excess state, acceptance/rejection flow, and dynamic action history.
+- Treasury settings for horizon, liquidity buffer, risk preference, and notifications.
 
 ## User preferences
 
