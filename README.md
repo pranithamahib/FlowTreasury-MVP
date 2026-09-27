@@ -4,7 +4,7 @@ An AI-assisted treasury decision-support prototype built for a Product Manager a
 
 **Live Demo**: https://flow-treasury-mvp--pranithamahib.replit.app  
 **Case Study**: https://app.notion.com/p/FlowTreasury-Zamp-PM-Case-Study-3e8d93be68d381e9b80ac0eb41fa4acb?source=copy_link
-**Demo Video**:https://www.loom.com/share/e5172f04ab344a978ea0a4b3201099e8
+ **Demo Video**:https://www.loom.com/share/e5172f04ab344a978ea0a4b3201099e8
 
  ## Problem
 
